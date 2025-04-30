@@ -1,0 +1,99 @@
+.listContainer {
+  margin: 0 auto;
+  position: relative;
+  padding: 3.75rem 3.125rem 3.75rem 3.125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+  .listNav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    .sliderControls {
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      height: fit-content;
+      align-items: center;
+      gap: 1.5938rem;
+      .counter {
+        color: var(--background);
+        font-size: var(--sub-h);
+        font-weight: 400;
+      }
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.875rem 3.75rem 1.875rem 3.75rem;
+      border: 1px var(--jumbo) solid;
+      background: var(--foreground);
+      color: var(--background);
+      border-radius: 1000px;
+      cursor: pointer;
+    }
+    button > * {
+      font-size: var(--button);
+      font-weight: 400;
+    }
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+    width: 100%;
+    .item {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items:start;
+      justify-content: space-between;
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 3.75rem;
+        .title {
+          width: fit-content;
+          height: fit-content;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          gap: 1.4375rem;
+          align-items: start;
+          .rombik {
+            width: 1rem;
+            height: 1rem;
+            background: var(--background);
+            rotate: 45deg;
+            margin-top: 4px;
+          }
+          p {
+            color: var(--background);
+            font-size: var(--text);
+          }
+        }
+        h3 {
+          color: var(--background);
+          font-weight: 400;
+          font-size: var(--sub-h);
+          white-space: pre-line;
+        }
+        p {
+          color: var(--background);
+          font-size: var(--text);
+        }
+      }
+      .imgArea {
+        display: flex;
+        .image {
+          width: 910px;
+          height: 420px;
+        }
+      }
+    }
+  }
+}

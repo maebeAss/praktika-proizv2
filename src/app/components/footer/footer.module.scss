@@ -1,0 +1,93 @@
+.footer {
+    display: flex;
+    position: relative;
+    background: var(--foreground);
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        padding: 80px 0 80px 50px;
+        width: fit-content;
+        .text {
+            display: flex;
+            flex-direction: column;
+            color: var(--jumbo);
+            gap: 30px;
+            #gdpr {
+                text-decoration: underline;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .navMenu {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        padding-left: 11.375rem;
+        padding-top: 5rem;
+        .service {
+            display: flex;
+            flex-direction: column;
+            gap: 3.125rem;
+            width: fit-content;
+            height: fit-content;
+            .link {
+                font-size: var(--sub-h);
+                font-weight: 400;
+                color: var(--background);
+            }
+        }
+        .navMenuContent {
+            display: flex;
+            flex-direction: column;
+            gap: 3.125rem;
+            width: fit-content;
+            height: fit-content;
+            padding-bottom: 5rem;
+            .link {
+                font-size: var(--sub-h);
+                font-weight: 400;
+                color: var(--background);
+            }
+        }
+    }
+    .footerContacts {
+        display: flex;
+        padding: 5rem 0 0 16.1875rem;
+        flex-direction: column;
+        gap: 10.0625rem;
+        .footerContactsInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 3.125rem;
+            .contactsInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 3.125rem;
+                .textInfoCard {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.625rem;
+                    p {
+                        font-size: var(--text);
+                        font-weight: 400;
+                        color: var(--background);
+                    }
+                    span {
+                        text-decoration: underline;
+                        color: var(--jumbo);
+                    }
+                }
+            }
+            .quickIcoLinks {
+                display: flex;
+                flex-direction: row;
+                gap: 0.9375rem;
+            }
+        }
+    }
+}

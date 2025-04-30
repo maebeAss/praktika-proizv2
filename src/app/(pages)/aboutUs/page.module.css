@@ -1,0 +1,127 @@
+.page {
+  font-family: var(--font-manrope);
+  display: flex;
+  flex-direction: column;
+  background: var(--foreground);
+}
+.page hr {
+  color: var(--background);
+  position: relative;
+  z-index: 10;
+  opacity: 10%;
+  height: 0.0625rem;
+  width: 100%;
+}
+.page .header > * {
+  color: var(--background);
+}
+.page .header > * nav ul li a {
+  color: var(--background);
+}
+.page .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  align-items: center;
+}
+.page .hero h1 {
+  font-size: var(--h1);
+  font-weight: 500;
+  color: var(--background);
+}
+.page .hero .main {
+  display: flex;
+  flex-direction: row;
+  gap: 19.6875rem;
+}
+.page .hero .main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.page .hero .main .content .krugliki {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+.page .hero .main .content .krugliki .kruglik {
+  display: flex;
+  width: 26.75rem;
+  height: 26.75rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--taupe);
+  border-radius: 1000px;
+}
+.page .hero .main .content .krugliki .kruglik p {
+  color: var(--background);
+  font-size: var(--sub-h);
+  font-weight: 400;
+  text-align: center;
+}
+.page .hero .main .subContent {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  justify-content: center;
+  align-items: start;
+}
+.page .hero .main .subContent h3 {
+  color: var(--background);
+  font-size: var(--sub-h);
+  font-weight: 400;
+  min-width: 604px;
+  text-align: left;
+}
+.page .hero .main .subContent h3 span {
+  display: flex;
+  width: 28.4375rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: var(--text);
+  font-weight: 400;
+  opacity: 40%;
+  color: var(--background);
+}
+.page .video {
+  margin-top: 11.25rem;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.page .video .image {
+  min-width: 120rem;
+  min-height: 67.5rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page .video h1 {
+  position: relative;
+  z-index: 10;
+  font-size: var(--h1);
+  font-weight: 500;
+  display: flex;
+  padding: 0px 0px 0px 50px;
+}
+.page .video .playButton {
+  padding: 1.5313rem;
+  gap: 0.625rem;
+  background: var(--foreground);
+  border: none;
+  border-radius: 1000px;
+}
+.page .video .playButton .ico {
+  color: var(--background);
+}
+.page .video .puk {
+  padding: 50px 0px 0px 50px;
+}
+.page .video .puk > * > * {
+  color: var(--foreground);
+}/*# sourceMappingURL=page.module.css.map */

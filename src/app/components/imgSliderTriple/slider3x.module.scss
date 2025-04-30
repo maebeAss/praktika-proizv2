@@ -1,0 +1,80 @@
+.listContainer {
+    margin: 0 auto;
+    position: relative;
+    padding: 3.75rem 3.125rem 3.75rem 3.125rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    .list {
+      display: flex;
+      flex-direction: row;
+      gap: 2.5rem;
+      width: 100%;
+      .item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .imgArea {
+          display: flex;
+          flex-direction: row;
+          gap: 2.5rem;
+          .cont {
+            display: flex;
+            flex-direction: column;
+            gap: 1.875rem;
+            .image {
+                width: 428px;
+                height: 500px;
+                border-radius: 0.1875rem;
+              }
+              .p {
+                font-size: var(--text-button);
+                font-weight: 400;
+                color: var(--background);
+                text-decoration: underline 1px solid var(--background);
+                cursor: pointer;
+              }
+          }
+        }
+      }
+    }
+    .listNav {
+        display: flex;
+        justify-content: space-between;
+        width: 428px;
+        height: 543px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        .sliderControls {
+          display: flex;
+          flex-direction: row;
+          width: fit-content;
+          height: fit-content;
+          align-items: center;
+          gap: 1.5938rem;
+          .counter {
+            color: var(--background);
+            font-size: var(--sub-h);
+            font-weight: 400;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1.875rem;
+          border: 1px var(--jumbo) solid;
+          background: var(--foreground);
+          color: var(--background);
+          border-radius: 1000px;
+          cursor: pointer;
+        }
+        button > * {
+          font-size: var(--button);
+          font-weight: 400;
+        }
+      }
+  }

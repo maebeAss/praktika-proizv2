@@ -1,0 +1,60 @@
+.header {
+  position: relative;
+  background: none;
+  width: 100vw;
+  height: 8.125rem;
+  z-index: 10;
+  display: flex;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 8.125rem;
+  padding: 0 50px 0 50px;
+}
+.header nav .logo {
+  margin-top: 0.625rem;
+}
+.header nav ul {
+  width: 30.625rem;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 1.875rem;
+  margin-top: 2rem;
+}
+.header nav ul li {
+  display: flex;
+  justify-content: center;
+}
+.header nav ul li .navLink {
+  font-family: var(--font-manrope);
+  color: var(--foreground);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header nav .navCont {
+  display: flex;
+  gap: 19.0625rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header nav .navCont p {
+  padding-top: 2rem;
+  text-decoration: underline;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+          user-select: all;
+}
+.header nav .navCont .orderButt {
+  cursor: pointer;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+          user-select: text;
+  height: -moz-fit-content;
+  height: fit-content;
+}/*# sourceMappingURL=header.module.css.map */

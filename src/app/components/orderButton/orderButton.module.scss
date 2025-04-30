@@ -1,0 +1,20 @@
+.orderButton {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem 3.75rem 1.875rem 3.75rem;
+    margin: 0 50px 50px 0;
+    gap: 0.625rem;
+    border: 1px solid var(--jumbo);
+    background: var(--background);
+    border-radius: 1000px;
+    width: 26.875rem;
+    height: 4.5625rem;
+    cursor: pointer;
+    background: var(--foreground);
+    p {
+        color: var(--background);
+    }
+}

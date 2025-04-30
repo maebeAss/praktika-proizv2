@@ -1,0 +1,25 @@
+.punkt {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1.4375rem;
+  align-items: center;
+}
+.punkt .rombik {
+  min-width: 16px;
+  min-height: 16px;
+  max-width: 16px;
+  max-height: 16px;
+  rotate: 45deg;
+  background: var(--taupe);
+  margin: 4px 0 0 4px;
+}
+.punkt p {
+  font-size: var(--text);
+  font-weight: 400;
+  color: var(--background);
+}/*# sourceMappingURL=punkt.module.css.map */

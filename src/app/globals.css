@@ -1,0 +1,64 @@
+:root {
+  --background: #FFFBFC;
+  --foreground: #000000;
+  --jumbo: #00000066;
+  --taupe: #40362E;
+  --h1: 120px;
+  --h2: 64px;
+  --sub-h: 30px;
+  --button: 18px;
+  --text-button: 18px;
+  --text: 18px;
+}
+
+@media only screen and (max-width: 1366px) {
+  :root {
+    --h1: 80px;
+    --h2: 48px;
+    --sub-h: 25px;
+    --button: 16px;
+    --text-button: 16px;
+    --text: 16px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  :root {
+    --h1: 36px;
+    --h2: 24px;
+    --sub-h: 20px;
+    --button: 14px;
+    --text-button: 14px;
+    --text: 14px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #000000;
+    --foreground: #FFFBFC;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

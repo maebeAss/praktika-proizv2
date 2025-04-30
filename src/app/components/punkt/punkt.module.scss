@@ -1,0 +1,23 @@
+.punkt {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4375rem;
+    align-items: center;
+    .rombik {
+        min-width: 16px;
+        min-height: 16px;
+        max-width: 16px;
+        max-height: 16px;
+        rotate: 45deg;
+        background: var(--taupe);
+        margin: 4px 0 0 4px;
+    }
+    p {
+        font-size: var(--text);
+        font-weight: 400;
+        color: var(--background);
+    }
+}

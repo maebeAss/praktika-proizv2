@@ -1,0 +1,104 @@
+.listContainer {
+  margin: 0 auto;
+  position: relative;
+  padding: 3.75rem 3.125rem 3.75rem 3.125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+}
+.listContainer .listNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+}
+.listContainer .listNav .sliderControls {
+  display: flex;
+  flex-direction: row;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+  gap: 1.5938rem;
+}
+.listContainer .listNav .sliderControls .counter {
+  color: var(--background);
+  font-size: var(--sub-h);
+  font-weight: 400;
+}
+.listContainer .listNav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem 3.75rem 1.875rem 3.75rem;
+  border: 1px var(--jumbo) solid;
+  background: var(--foreground);
+  color: var(--background);
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.listContainer .listNav button > * {
+  font-size: var(--button);
+  font-weight: 400;
+}
+.listContainer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+  width: 100%;
+}
+.listContainer .list .item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+.listContainer .list .item .content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+.listContainer .list .item .content .title {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1.4375rem;
+  align-items: start;
+}
+.listContainer .list .item .content .title .rombik {
+  width: 1rem;
+  height: 1rem;
+  background: var(--background);
+  rotate: 45deg;
+  margin-top: 4px;
+}
+.listContainer .list .item .content .title p {
+  color: var(--background);
+  font-size: var(--text);
+}
+.listContainer .list .item .content h3 {
+  color: var(--background);
+  font-weight: 400;
+  font-size: var(--sub-h);
+  white-space: pre-line;
+}
+.listContainer .list .item .content p {
+  color: var(--background);
+  font-size: var(--text);
+}
+.listContainer .list .item .imgArea {
+  display: flex;
+}
+.listContainer .list .item .imgArea .image {
+  width: 910px;
+  height: 420px;
+}/*# sourceMappingURL=slider.module.css.map */

@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  position: relative;
+  background: var(--foreground);
+  flex-direction: row;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.footer .footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 80px 0 80px 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer .footerContent .text {
+  display: flex;
+  flex-direction: column;
+  color: var(--jumbo);
+  gap: 30px;
+}
+.footer .footerContent .text #gdpr {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.footer .navMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  padding-left: 11.375rem;
+  padding-top: 5rem;
+}
+.footer .navMenu .service {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.footer .navMenu .service .link {
+  font-size: var(--sub-h);
+  font-weight: 400;
+  color: var(--background);
+}
+.footer .navMenu .navMenuContent {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 5rem;
+}
+.footer .navMenu .navMenuContent .link {
+  font-size: var(--sub-h);
+  font-weight: 400;
+  color: var(--background);
+}
+.footer .footerContacts {
+  display: flex;
+  padding: 5rem 0 0 16.1875rem;
+  flex-direction: column;
+  gap: 10.0625rem;
+}
+.footer .footerContacts .footerContactsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+.footer .footerContacts .footerContactsInfo .contactsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+.footer .footerContacts .footerContactsInfo .contactsInfo .textInfoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.footer .footerContacts .footerContactsInfo .contactsInfo .textInfoCard p {
+  font-size: var(--text);
+  font-weight: 400;
+  color: var(--background);
+}
+.footer .footerContacts .footerContactsInfo .contactsInfo .textInfoCard span {
+  text-decoration: underline;
+  color: var(--jumbo);
+}
+.footer .footerContacts .footerContactsInfo .quickIcoLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9375rem;
+}/*# sourceMappingURL=footer.module.css.map */

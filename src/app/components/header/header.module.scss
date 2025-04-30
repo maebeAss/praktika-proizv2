@@ -1,0 +1,53 @@
+.header {
+    position: relative;
+    background: none;
+    width: 100vw;
+    height: 8.125rem;
+    z-index: 10;
+    display: flex;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 8.125rem;
+        padding: 0 50px 0 50px;
+        .logo {
+            margin-top: 0.625rem;
+        }
+        ul {
+            width: 30.625rem;
+            display: flex;
+            list-style-type: none;
+            flex-direction: row;
+            gap: 1.875rem;
+            margin-top: 2rem;
+            li {
+                display: flex;
+                justify-content: center;
+                .navLink {
+                    font-family: var(--font-manrope);
+                    color: var(--foreground);
+                    height: fit-content;
+                }
+            }
+        }
+        .navCont {
+            display: flex;
+            gap: 19.0625rem;
+            flex-direction: row;
+            justify-content: space-between;
+            p {
+                padding-top: 2rem;
+                text-decoration: underline;
+                width: max-content;
+                cursor: pointer;
+                user-select: all;
+            }
+            .orderButt {
+                cursor: pointer;
+                user-select: text;
+                height: fit-content;
+            }
+        }
+    }
+}
