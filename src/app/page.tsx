@@ -88,7 +88,7 @@ export default function Home() {
     <div className={styles.page}>
       <section className={styles.hero}>
       <Image
-        src="/png/home-back1.png"
+        src="/png/home-hero-bg.png"
         alt="ABOBA"
         height={1080}
         width={1920}
