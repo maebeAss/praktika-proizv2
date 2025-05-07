@@ -25,6 +25,7 @@
   margin-top: 2rem;
 }
 .header nav ul li {
+  color: var(--background);
   display: flex;
   justify-content: center;
 }
@@ -39,6 +40,7 @@
   gap: 19.0625rem;
   flex-direction: row;
   justify-content: space-between;
+  color: var(--foreground);
 }
 .header nav .navCont p {
   padding-top: 2rem;
