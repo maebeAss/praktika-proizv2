@@ -48,7 +48,7 @@ interface FeatureListProps {
         <div className={styles.sliderControls}>
           <button onClick={prevSlide} aria-label="Previous features">
             <Image
-            src="/svg/arrow-left.svg"
+            src="./svg/arrow-left.svg"
             alt='left'
             width={24}
             height={24}
@@ -58,7 +58,7 @@ interface FeatureListProps {
           </button>
           <button onClick={nextSlide} aria-label="Next features">
             <Image
-            src="/svg/arrow-right.svg"
+            src="./svg/arrow-right.svg"
             alt='right'
             width={24}
             height={24}
