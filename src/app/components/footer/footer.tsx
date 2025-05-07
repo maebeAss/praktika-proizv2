@@ -10,7 +10,7 @@ export default function Footer () {
                 width={153}
                 height={50}
                 className={styles.logo}
-                src="/png/Logo.png"
+                src="./png/Logo.png"
                 alt="Сочи стройка logo"
                 priority
                 ></Image>
@@ -51,11 +51,11 @@ export default function Footer () {
                         </div>
                     </div>
                     <div className={styles.quickIcoLinks}>
-                        <Link href="/"><Image src="/svg/vk.svg" alt="vk logo" width={40} height={40}></Image></Link>
-                        <Link href="/"><Image src="/svg/tg.svg" alt="tg logo" width={40} height={40}></Image></Link>
-                        <Link href="/"><Image src="/svg/whtsapp.svg" alt="whatsapp logo" width={40} height={40}></Image></Link>
-                        <Link href="/"><Image src="/svg/youtube.svg" alt="youtube logo" width={40} height={40}></Image></Link>
-                        <Link href="/"><Image src="/svg/ok.svg" alt="ok logo" width={40} height={40}></Image></Link>
+                        <Link href="/"><Image src="./svg/vk.svg" alt="vk logo" width={40} height={40}></Image></Link>
+                        <Link href="/"><Image src="./svg/tg.svg" alt="tg logo" width={40} height={40}></Image></Link>
+                        <Link href="/"><Image src="./svg/whtsapp.svg" alt="whatsapp logo" width={40} height={40}></Image></Link>
+                        <Link href="/"><Image src="./svg/youtube.svg" alt="youtube logo" width={40} height={40}></Image></Link>
+                        <Link href="/"><Image src="./svg/ok.svg" alt="ok logo" width={40} height={40}></Image></Link>
                     </div>
                 </div>
                 <div className={styles.contactButton}>

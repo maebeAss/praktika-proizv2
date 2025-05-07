@@ -12,7 +12,7 @@ export default function Header() {
                     width={153}
                     height={50}
                     className={styles.logo}
-                    src="/png/Logo.png"
+                    src="./png/Logo.png"
                     alt="Сочи стройка logo"
                     priority>
                     </Image>

@@ -114,7 +114,7 @@ export default function Home() {
       </section>
       <section className={styles.advertisement1}>
         <Image
-        src="/png/home-advertisement-bg.png"
+        src="./png/home-advertisement-bg.png"
         alt="ABOBA"
         height={1080}
         width={1920}
@@ -202,7 +202,7 @@ export default function Home() {
       </section>
       <section className={styles.advertisement2}>
         <Image
-        src="/png/home-advertisement-2bg.png"
+        src="./png/home-advertisement-2bg.png"
         alt="ABOBA"
         height={1080}
         width={1920}

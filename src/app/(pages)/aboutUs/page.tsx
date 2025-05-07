@@ -91,7 +91,7 @@ export default function AboutUs() {
             </section>
             <section className={styles.video}>
                 <Image
-                src="/png/about-video.png"
+                src="./png/about-video.png"
                 alt="video"
                 height={1080}
                 width={1920}
@@ -101,7 +101,7 @@ export default function AboutUs() {
                 ></Image>
                 <div className={styles.playButton}>
                     <Image
-                    src="/svg/play.svg"
+                    src="./svg/play.svg"
                     alt="play"
                     priority
                     width={11.6}

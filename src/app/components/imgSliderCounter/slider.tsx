@@ -25,6 +25,11 @@ interface FeatureListProps {
   const FeatureList: React.FC<FeatureListProps> = ({ features, visibleCount = 3 }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [displayCount] = useState(visibleCount);
+    const [count, setCounter] = useState(0);
+
+    const dicrimental = () => {
+      setCounter(count + 1);
+    }
     
     const currentSlide = Math.floor(currentIndex / displayCount) + 1;
   
@@ -67,6 +72,10 @@ interface FeatureListProps {
             </div>
           </div>
         ))}
+      </div>
+      <div className={styles.sosal}>
+        <p>{count}</p>
+        <button onClick={dicrimental}></button>
       </div>
       <div className={styles.listNav}>
         <div className={styles.sliderControls}>
